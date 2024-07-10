@@ -122,12 +122,15 @@ font-weight: 400;
 width: 150px;
  height: 48px;
  border: 1px solid rgb(13, 19, 33);
-color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 20px;
  font-weight: 600;
  margin-right: 240px;
  margin-top: 25px; 
+ }
+ .section-div-text-part a{
+text-decoration: none;
+color: black;
  }
 .section-div-img-part{
    height: 240px; 
@@ -166,13 +169,11 @@ width: 1140px;
 height: 460px;    
 margin: 0 auto;
 margin-top: 83px; 
-border: 2px solid red; 
 text-align: center;                          
  }
  .target-content{
  width: 1140px;
- height: 299px;  
- border: 2px solid blue;   
+ height: 299px;    
  margin-top: 48px;   
  display: flex;  
  flex-direction: row; 
@@ -180,16 +181,17 @@ text-align: center;
  }
  .skill-target{
  width: 364px;
- height: 299px; 
- border: 2px solid green;     
+ height: 299px;     
  text-align: left;                      
  }
  .skill-element{
  width: 284px;
 height: 219px;   
 margin: 0 auto;
-margin-top: 40px;
-border: 2px solid green;                      
+margin-top: 40px;                 
+ }
+ .skill-element a{
+  color: black;                            
  }
  .html-color{
  background-color: rgba(255, 76, 30, 0.05);                         
