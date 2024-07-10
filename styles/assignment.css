@@ -143,7 +143,9 @@ height: 240.01px;
 width: 1140px;
 height: 765px;       
 margin: 0 auto;
-margin-top: 88px;                   
+margin-top: 88px;  
+border: 1px solid black;    
+border-radius: 10px;             
  }
  .inspiration-container{
     text-align: center;                     
@@ -156,4 +158,83 @@ margin-top: 88px;
  width: 1140px;
  height: 600px;
  margin-top: 48px;
+ }
+ /* inspiration section ends here */
+ /* target section start here */
+.target-container{
+width: 1140px;
+height: 460px;    
+margin: 0 auto;
+margin-top: 83px; 
+border: 2px solid red; 
+text-align: center;                          
+ }
+ .target-content{
+ width: 1140px;
+ height: 299px;  
+ border: 2px solid blue;   
+ margin-top: 48px;   
+ display: flex;  
+ flex-direction: row; 
+ gap: 20px;            
+ }
+ .skill-target{
+ width: 364px;
+ height: 299px; 
+ border: 2px solid green;     
+ text-align: left;                      
+ }
+ .skill-element{
+ width: 284px;
+height: 219px;   
+margin: 0 auto;
+margin-top: 40px;
+border: 2px solid green;                      
+ }
+ .html-color{
+ background-color: rgba(255, 76, 30, 0.05);                         
+ }
+ .css-color{
+ background-color: rgba(0, 76, 232, 0.05);;                         
+ }
+ .js-color{
+ background-color: rgba(255, 223, 0, 0.05);                         
+ }
+ /* suppurt section start here */
+ .support-container{
+  width: 1140px;
+ height: 313px;       
+ border: 2px solid green;
+ margin: 0 auto;   
+ margin-top: 50px;  
+ background-image: url(../assets/handshake.jpg);   
+ background-size: cover;             
+ }
+ .support-content{
+   width: 1044px;
+  height: 185px;       
+  margin: 0 auto;        
+  margin-top:60px;        
+  text-align: center;  
+  color: white;
+ }
+ .support-content p{
+  font-size: 10px;
+  font-weight: 400; 
+  margin-top: 10px;                          
+ }
+ .support-content input[type="text"]{
+width: 360px;
+height: 50px;
+border-radius: 5px;
+border: none;
+margin-top: 40px;
+ }
+.support-content input[type="submit"]{
+width: 90px;
+height: 50px;
+font-size: 20px;
+font-weight: 600;
+border-radius: 5px;
+border: none;
  }
