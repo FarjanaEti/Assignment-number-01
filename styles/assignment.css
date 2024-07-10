@@ -66,25 +66,24 @@ border: 2px dashed rgba(0, 0, 0, 0.132);
  .why-web-section{
  width: 1140px;
 height: 1395px;
-border: 2px solid red;  
  margin: 0 auto; 
  background: rgba(13, 19, 33, 0.034);   
-margin-top: 70px;                      
  }
 .why-web-container{
     width: 946px;
     height: 1235px;      
     margin: 0 auto;    
     text-align: center;  
-    margin-top:80px;             
+     margin-top:80px;              
    }
  .web-text h2{
- margin-top: 0px;
- font-size: 32px;
+font-size: 32px;
 font-weight: 800;
+padding: 30px;
+margin-bottom: 10px;
  }
  .web-text p{
-   font-size: 16px;
+font-size: 16px;
 font-weight: 400;
  padding: 20px;
  }
@@ -93,7 +92,6 @@ font-weight: 400;
    width: 946px;
    height: 336px; 
    background-color: rgb(255, 255, 255);
-   border: 3px solid blue;
    margin: 32px;
 }
 .section-div-container{
@@ -101,12 +99,11 @@ display: flex;
  width: 850px;
  height: 240px; 
  margin: 48px auto;
- border: 1px solid green;
 }
  .section-div-text-part{
-width:70%;
-height: 200px;
-border: 2px solid violet;
+width:65%;
+height: 180px;
+text-align: left;
 }
  .section-div-text-part h1{
  color: rgba(13, 19, 33, 0.7);
@@ -134,8 +131,7 @@ font-size: 20px;
  }
 .section-div-img-part{
    height: 240px; 
-    width: 30%;  
-    border: 1px solid red;
+    width: 35%;  
  }
  .section-div-img-part img{
 width: 259.56px;
