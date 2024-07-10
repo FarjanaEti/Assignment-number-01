@@ -137,3 +137,23 @@ font-size: 20px;
 width: 259.56px;
 height: 240.01px;
  }
+ /* second section ends here */
+ /* inspiration section start here */
+ .inspiration{
+width: 1140px;
+height: 765px;       
+margin: 0 auto;
+margin-top: 88px;                   
+ }
+ .inspiration-container{
+    text-align: center;                     
+ }
+ .inspiration-container h2{
+ font-size: 28px;
+ font-weight: 800;                         
+ }
+ .inspiration-vedio{
+ width: 1140px;
+ height: 600px;
+ margin-top: 48px;
+ }
